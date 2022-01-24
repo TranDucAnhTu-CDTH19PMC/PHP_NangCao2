@@ -211,7 +211,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a class="nav-link menu-title link-nav " href="https://laravel.pixelstrap.com/viho/file-manager"><i data-feather="git-pull-request"></i><span>File manager</span></a>
+                                    <a class="nav-link menu-title link-nav " href="{{route('FileManagement')}}"><i data-feather="git-pull-request"></i><span>File manager</span></a>
                                 </li>
                                 <li class="sidebar-main-title">
                                     <div>

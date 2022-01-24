@@ -27,6 +27,12 @@ class DasboardAdminController extends Controller
         return view('admin/StudentManagement',compact('Student'));
     }
     
+    public function FileManagement()
+    {
+        $Student= TaiKhoan::where('ID_LoaiTaiKhoan',2)->get();
+        return view('admin/filemanager',compact('Student'));
+    }
+    
     public function showcreateAccount()
     {
         return view('admin/createAccount');
